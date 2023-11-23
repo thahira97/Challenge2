@@ -141,7 +141,7 @@ export const Login = () => {
         </div>
         <br></br>
         <p>
-          Don't have an account? <b>Sign up</b>{" "}
+          Don't have an account? <a href="/"> <b>Sign up</b>{" "}</a>
         </p>
       </Container>
     </main>

@@ -79,8 +79,7 @@ app.post("/signup", (req, res) => {
       db.query(
         `
         INSERT INTO users (firstname, lastname, password, username, email, cpass)
-        VALUES ($1, $2, $3, $4, $5, $6 )
-        RETURNING *;
+        VALUES ($1, $2, $3, $4, $5, $6 );
         `,
         [firstname, lastname, password, username, email, cpass],
         (err, data) => {
@@ -121,8 +120,8 @@ app.post("/login", async (req, res) => {
       return res.status(404).json("Wrong Password");
     }
     const user = result.rows[0];
-    res.status(200).json({ message: "You can go in", user });
-    console.log(user);
+    res.status(200).json({ message: "You can go in"});
+    
   } 
   catch (error) {
     console.error("Error during login:", error);

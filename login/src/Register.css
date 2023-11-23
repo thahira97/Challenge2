@@ -80,3 +80,12 @@ input::placeholder {
 .main-buttons:active {
   background-color: azure;
 }
+
+.strength li {
+list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

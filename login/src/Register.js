@@ -173,7 +173,7 @@ export const Register = () => {
               ></input>
             </Col>
           </form>
-          <div>
+          <div className="strength">
             <b>
               <h4>Strength</h4>
             </b>
@@ -241,7 +241,7 @@ export const Register = () => {
         </div>
         <br></br>
         <p>
-          Already have an account? <b>Log in</b>{" "}
+          Already have an account? <a href="/login"><b>Log in</b></a>
         </p>
         <p>
           Are you an organization? <b>Organization register</b>
