@@ -10,6 +10,7 @@ import img2 from "./assets/Splash_1.png";
 import img3 from "./assets/Splash_2.png";
 import img4 from "./assets/Splash_4.png";
 import axios from "axios";
+import logo from "./assets/logoNew.png"
 
 export const Login = () => {
   const responsive = {
@@ -91,6 +92,7 @@ export const Login = () => {
       </Carousel>{" "}
       <Container>
         <div className="side-component">
+        <img src={logo}></img>
           <form className="form-component">
             <Col sm={6} className="px-1">
               <input
