@@ -229,15 +229,6 @@ export const Register = () => {
             <br></br>
             <button className="main-buttons">Continue with LinkedIn</button>
             <br></br>
-            {/* <GoogleLogin
-                clientId={cliendID}
-                buttonText="Continue with Google"
-                onSuccess={onSuccess}
-                onFailure={onFailure}
-                cookiePolicy="single-host-origin"
-                isSignedIn={true}>
-
-            </GoogleLogin> */}
             <button className="main-buttons" onClick={googleAuth}>
               Continue with Google
             </button>

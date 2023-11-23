@@ -128,7 +128,9 @@ export const Login = () => {
             <br></br>
             <button className="main-buttons">Continue with LinkedIn</button>
             <br></br>
-            <button className="main-buttons">Continue with Google</button>
+            <button className="main-buttons" onClick={googleAuth}>
+              Continue with Google
+            </button>
             <br></br>
             <button className="main-buttons">Continue with Apple</button>
             <br></br>
