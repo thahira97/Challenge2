@@ -1,0 +1,81 @@
+.main-container {
+  background: white;
+  text-align: center;
+  color: white;
+}
+
+.form-component input  {
+  width: 50%;
+  color: white;
+  border: 1px solid rgba(210, 13, 13, 0.5);
+  border-radius: 20px;
+  margin: 0 0 8px 0;
+  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+  border-color: rgb(29, 215, 215);
+}
+.drop-box{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-box select {
+  color: white;
+  width: 50%;
+  border: 1px solid rgb(29, 215, 215);
+  border-radius: 20px;
+  margin: 0 0 8px 0;
+  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.check {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.register-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* align-content: center; */
+  align-items: center;
+}
+.main-buttons {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: rgb(29, 215, 215);
+  transition: background-color 0.3s ease;
+  width: 250px; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  border-radius: 10px;
+}
+
+.main-buttons:active {
+  background-color: azure;
+}
