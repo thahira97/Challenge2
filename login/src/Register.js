@@ -10,7 +10,7 @@ import img3 from "./assets/Splash_2.png";
 import img4 from "./assets/Splash_4.png";
 import recaptcha from "./assets/RecaptchaLogo.svg.png";
 import axios from "axios";
-// import { AuthContext } from './AuthContext';
+import logo from "./assets/logoNew.png";
 
 export const Register = () => {
   const responsive = {
@@ -116,6 +116,7 @@ export const Register = () => {
       </Carousel>{" "}
       <Container>
         <div className="side-component">
+        <img src={logo}></img>
           <form className="form-component">
             <Col sm={6} className="px-1">
               <input
